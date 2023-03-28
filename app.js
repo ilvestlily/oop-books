@@ -26,7 +26,7 @@ function getBooks(){
 }
 
 function addBook(event){
-    // read user inputs
+
     const title = ui.getInputData('#title')
     const author = ui.getInputData('#author')
     const isbn = ui.getInputData('#isbn')
