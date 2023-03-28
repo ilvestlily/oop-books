@@ -20,7 +20,7 @@ class LS {
     }
 
     getData(name){
-        let data // array for user inputs
+        let data //
         if(localStorage.getItem(name) === null){
             data = []
         } else {
